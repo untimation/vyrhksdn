@@ -1,0 +1,19 @@
+@charset "utf-8";
+#slider {width: 1900px; height: 200px; margin: 0; overflow: hidden;}
+#slider {position: absolute; transform: translate(-50%, -50%); height: 38%; top: 35.5%; left: 50%;}
+
+section {width: 1900px; height: 1900px; margin: 0 auto; overflow: hidden;}
+.main_menu {width: 1100px; height: 1700px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; position: absolute; transform: translate(50%, 0%); right: 50%; top: 45%;}
+.main_menu > article {width: 249px; height: 496px; margin: 0 18px 0 0px;}
+.article_img {width: 249px; height: 320px; overflow: hidden;}
+.article_img > img {width: 100%; height: 100%; transform: scale(1); transition: 0.5s; cursor:  pointer; border-radius: 10px;}
+.article_img > img:hover {transform: scale(1.05);}
+.shoping_kart > button {border-radius: 5px; width: 249px; height: 36px; margin: 6px 0 0 0px; border: 1px solid #b5b5b5; font-size: 16px;}
+.shoping_kart > button > img {width: 22px; height: 22px; margin: 3px 0 0 0px;}
+.main_menu > article > a {text-decoration: none; color: #333;}
+.main_menu > article > a > h3 {font-size: 16px; color: #333;}
+.main_menu > article > a > span {color: #b5b5b5;}
+.price_sale {color: #fa622f; margin: 0 7px 0 0px; font-size: 16px; font-weight: 700;}
+.price_won {color: #333; font-size: 16px;}
+.review_icon {width: 15px; height: 15px;}
+.reviewer {color: #b5b5b5; font-size: 15px;}
